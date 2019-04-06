@@ -1,0 +1,18 @@
+git help - pokazuje najwa¿niejsze komendy
+git help KOMENDA np.: git help init - pomoc dla konkretnej komendy (init)
+git init - tworzy nowe repozytorium w obecnej lokalizacji
+git status - pokazuje gdzie jest dany plik
+git diff - pokazuje ró¿nice w zawartoœci pliku pomiêdzy stagem a working directory
+git diff --staged - ró¿nice pomiêdzy plikem z repozytorium a plikiem ze stage'a
+git add - przenosi z working directory -> stage (plik jest œledzony); git add . -przen. wszystko
+git commit - przenosi z stage -> repozytorium (git commit -m "komentarz" NazwaPiku.rozszerzenie)
+git commit -v - do komentarza trafi¹ równie¿ poszczególne zmodyfikowane wiersze, pokazuj¹c, co dok³adnie zrobi³eœ
+git clean -idf (i-interaktywne, d-foldery f-...) - usuwa zawartoœæ working directory (pytaj¹c)
+git reset - cofa z stage -> working directory (git reset jest odwrotnoœci¹ git add)
+git checkout -- Nazwapliku.rozszerzenie - to co jest w stage nadpisuje zawartoœæ Working 		directory, inaczej: zmiany dokonane na niesledzonym pliku s¹ anulowane
+git chceckout 5c95a4d - przywraca plik z danej zmiany opisanej hashem 5c95a4d 
+git log - pokazuje kto i kiedy przes³a³ commita razem z jego komentarzem (git log --oneline)
+
+
+
+
