@@ -18,5 +18,9 @@ git reset - robimy tylko na commitach które nie s¹ upublicznione!, cofamy siê po
 git branch <nazwa> - tworzy now¹ ga³¹Ÿ, 
 git branch - podgl¹d wszystkich ga³êzi
 git checkout <nazwa> prze³¹cza na wskazan¹ ga³¹Ÿ
+<<<<<<< Updated upstream
 
+=======
+git merge <nazwa> - przy³¹czanie ga³êzi do MASTER (wczeœniej nale¿y siê upewniæ ¿e jest siê na 		ga³êzi master
+>>>>>>> Stashed changes
 
