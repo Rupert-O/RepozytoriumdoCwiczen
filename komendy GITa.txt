@@ -12,6 +12,7 @@ git reset - cofa z stage -> working directory (git reset jest odwrotnoœci¹ git a
 git checkout -- Nazwapliku.rozszerzenie - to co jest w stage nadpisuje zawartoœæ Working 		directory, inaczej: zmiany dokonane na niesledzonym pliku s¹ anulowane
 git chceckout 5c95a4d - przywraca plik z danej zmiany opisanej hashem 5c95a4d do W. Directory
 git log - pokazuje kto i kiedy przes³a³ commita razem z jego komentarzem (git log --oneline)
+-- nazwaPliku.txt -x wuœwietla x ostatnich komitów --author="Rupert O" git shortlog-wg autorów
 git revert <hash> - przywraca zmiany z danego commitu przez wys³anie nowego, UWAGA! odwraca 		zmiany poczynione tylko w danym commitcie, wszystko póxniejsze zostaje
 git reset - robimy tylko na commitach które nie s¹ upublicznione!, cofamy siê poprzez usuniêcie 	commitów, --mixed usuwane zmiany trafiaj¹ do Working directory, --soft zmiany trafiaj¹ 	na stage, --hard usuniêcie ca³kowite
 
