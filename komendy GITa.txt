@@ -15,12 +15,7 @@ git log - pokazuje kto i kiedy przes³a³ commita razem z jego komentarzem (git lo
 -- nazwaPliku.txt -x wuœwietla x ostatnich komitów --author="Rupert O" git shortlog-wg autorów
 git revert <hash> - przywraca zmiany z danego commitu przez wys³anie nowego, UWAGA! odwraca 		zmiany poczynione tylko w danym commitcie, wszystko póxniejsze zostaje
 git reset - robimy tylko na commitach które nie s¹ upublicznione!, cofamy siê poprzez usuniêcie 	commitów, --mixed usuwane zmiany trafiaj¹ do Working directory, --soft zmiany trafiaj¹ 	na stage, --hard usuniêcie ca³kowite
-git branch <nazwa> - tworzy now¹ ga³¹Ÿ, 
-git branch - podgl¹d wszystkich ga³êzi
-git checkout <nazwa> prze³¹cza na wskazan¹ ga³¹Ÿ
-<<<<<<< Updated upstream
-
-=======
-git merge <nazwa> - przy³¹czanie ga³êzi do MASTER (wczeœniej nale¿y siê upewniæ ¿e jest siê na 		ga³êzi master
->>>>>>> Stashed changes
-
+####### ZDALNE REPOZYTORIUM
+git push -u origin master-synchronizuje zawartoœæ lokalnego repo. z ze zdalnym repo.
+git pull - pobiera ze zdalnego repo. do lokalnego repo.
+git log --all --decorate --oneline --graph
