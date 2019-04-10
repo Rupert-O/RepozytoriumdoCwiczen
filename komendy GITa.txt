@@ -16,4 +16,10 @@ git log - pokazuje kto i kiedy przes³a³ commita razem z jego komentarzem (git lo
 git revert <hash> - przywraca zmiany z danego commitu przez wys³anie nowego, UWAGA! odwraca 		zmiany poczynione tylko w danym commitcie, wszystko póxniejsze zostaje
 git reset - robimy tylko na commitach które nie s¹ upublicznione!, cofamy siê poprzez usuniêcie 	commitów, --mixed usuwane zmiany trafiaj¹ do Working directory, --soft zmiany trafiaj¹ 	na stage, --hard usuniêcie ca³kowite
 
-
+git branch <nazwa ga³êzi> - tworzy now¹ ga³¹Ÿ
+git branch -d <nazwa ga³êzi> - usuwa ga³¹Ÿ
+git chceckout <nazwa branchu> - prze³¹cza na dan¹ ga³¹Ÿ
+####### ZDALNE REPOZYTORIUM
+git push -u origin master-synchronizuje zawartoœæ lokalnego repo. z ze zdalnym repo.
+git pull - pobiera ze zdalnego repo. do lokalnego repo.
+git log --all --decorate --oneline --graph
