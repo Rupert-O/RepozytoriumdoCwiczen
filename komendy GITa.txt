@@ -22,5 +22,8 @@ git pull - pobiera ze zdalnego repo. do lokalnego repo.
 
 git rm - usuwa plik, -f wymusza usuniêcie, (lepiej przes³aæ commit i potem usun¹æ plik, wtedy bêdzie 	mozliwe  odtworzenie go z migawki) 
 git merge - scalanie jednej ga³êzi z inn¹ (najpierw nale¿y siê prze³¹czyæ na ga³¹Ÿ do której ma byæ 		scalenie), scalenie nie usuwa ¿adnej ga³êzi, nale¿y usun¹æ niepotrzebn¹ ga³¹Ÿ rêcznie
-
+git branch -d hotfix - usuwa ga³¹Ÿ hotfix
+git branch - pokazuje wszystkie branche -v pokazuje ostatnio zatwierdzon¹ zmianê dla ka¿dego brancha
+git branch <nazwa> - tworzy now¹ ga³¹Ÿ
+git checkout <nazwa_ga³êzi> - prze³¹cza na dan¹ ga³¹¿
 ZAWSZE WARTO PRZESY£AÆ ZMIENIONE PLIKI DO REPOZYTORIUM-ISTNIEJE WTEDY MOZLIWOŒÆ ODTWORZENIA ICH.
