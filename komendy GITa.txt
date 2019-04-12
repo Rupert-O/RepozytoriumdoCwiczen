@@ -21,6 +21,6 @@ git push -u origin master-synchronizuje zawartoœæ lokalnego repo. z ze zdalnym r
 git pull - pobiera ze zdalnego repo. do lokalnego repo.
 
 git rm - usuwa plik, -f wymusza usuniêcie, (lepiej przes³aæ commit i potem usun¹æ plik, wtedy bêdzie 	mozliwe  odtworzenie go z migawki) 
-git merge - scalanie jednej ga³êzi z inn¹ (najpierw nale¿y siê prze³¹czyæ na ga³¹Ÿ do której ma byæ 		scalenie)
+git merge - scalanie jednej ga³êzi z inn¹ (najpierw nale¿y siê prze³¹czyæ na ga³¹Ÿ do której ma byæ 		scalenie), scalenie nie usuwa ¿adnej ga³êzi, nale¿y usun¹æ niepotrzebn¹ ga³¹Ÿ rêcznie
 
 ZAWSZE WARTO PRZESY£AÆ ZMIENIONE PLIKI DO REPOZYTORIUM-ISTNIEJE WTEDY MOZLIWOŒÆ ODTWORZENIA ICH.
